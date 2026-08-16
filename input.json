@@ -1,0 +1,24 @@
+{
+  "word": "Optimistic",
+  "word_vi": "Lạc quan",
+  "scenes": [
+    {
+      "style": "question",
+      "en": "What does it mean to be optimistic?",
+      "vi": "Lạc quan là gì?"
+    },
+    {
+      "style": "quote_dark",
+      "en": "Optimistic is not \"everything will go perfectly\".",
+      "vi": "Lạc quan không phải là \"mọi thứ sẽ luôn diễn ra hoàn hảo\"."
+    },
+    {
+      "style": "quote_gold",
+      "en": "Optimistic is \"something good can still come from this\".",
+      "vi": "Lạc quan là \"điều tốt đẹp vẫn có thể đến từ chuyện này\"."
+    }
+  ],
+  "caption": "Lạc quan là gì?",
+  "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+  "voice": "en-US-ChristopherNeural"
+}
