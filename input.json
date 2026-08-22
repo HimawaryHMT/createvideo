@@ -1,24 +1,25 @@
 {
-  "word": "Optimistic",
-  "word_vi": "Lạc quan",
+  "word": "Loyal",
+  "word_vi": "Trung thành",
+  "bg_query": "friends",
   "scenes": [
     {
       "style": "question",
-      "en": "What does it mean to be optimistic?",
-      "vi": "Lạc quan là gì?"
+      "en": "What does it mean to be loyal?",
+      "vi": "Trung thành là gì?"
     },
     {
       "style": "quote_dark",
-      "en": "Optimistic is not \"everything will go perfectly\".",
-      "vi": "Lạc quan không phải là \"mọi thứ sẽ luôn diễn ra hoàn hảo\"."
+      "en": "Loyal is not \"agreeing with everything\".",
+      "vi": "Trung thành không phải là \"đồng ý với mọi thứ\"."
     },
     {
       "style": "quote_gold",
-      "en": "Optimistic is \"something good can still come from this\".",
-      "vi": "Lạc quan là \"điều tốt đẹp vẫn có thể đến từ chuyện này\"."
+      "en": "Loyal is \"staying true even when things get difficult\".",
+      "vi": "Trung thành là \"giữ lòng chân thành ngay cả khi mọi thứ trở nên khó khăn\"."
     }
   ],
-  "caption": "Lạc quan là gì?",
+  "caption": "Trung thành là gì ?",
   "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
   "voice": "en-US-ChristopherNeural"
 }

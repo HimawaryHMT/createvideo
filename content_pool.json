@@ -1,0 +1,1432 @@
+[
+  {
+    "word": "Courageous",
+    "word_vi": "Can đảm",
+    "bg_query": "cliff",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be courageous?", "vi": "Can đảm là gì?" },
+      { "style": "quote_dark", "en": "Courageous is not \"having no fear\".", "vi": "Can đảm không phải là \"không có nỗi sợ\"." },
+      { "style": "quote_gold", "en": "Courageous is \"choosing to act despite your fear\".", "vi": "Can đảm là \"chọn hành động dù bạn vẫn sợ hãi\"." }
+    ],
+    "caption": "Can đảm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Compassionate",
+    "word_vi": "Trắc ẩn",
+    "bg_query": "helping",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be compassionate?", "vi": "Trắc ẩn là gì?" },
+      { "style": "quote_dark", "en": "Compassionate is not \"feeling sorry for someone\".", "vi": "Trắc ẩn không phải là \"thương hại ai đó\"." },
+      { "style": "quote_gold", "en": "Compassionate is \"choosing to understand someone's pain\".", "vi": "Trắc ẩn là \"chọn cách thấu hiểu nỗi đau của người khác\"." }
+    ],
+    "caption": "Trắc ẩn là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Generous",
+    "word_vi": "Hào phóng",
+    "bg_query": "sharing",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be generous?", "vi": "Hào phóng là gì?" },
+      { "style": "quote_dark", "en": "Generous is not \"giving everything away\".", "vi": "Hào phóng không phải là \"cho đi tất cả mọi thứ\"." },
+      { "style": "quote_gold", "en": "Generous is \"giving without always expecting something back\".", "vi": "Hào phóng là \"cho đi mà không luôn mong nhận lại\"." }
+    ],
+    "caption": "Hào phóng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Loyal",
+    "word_vi": "Trung thành",
+    "bg_query": "friends",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be loyal?", "vi": "Trung thành là gì?" },
+      { "style": "quote_dark", "en": "Loyal is not \"agreeing with everything\".", "vi": "Trung thành không phải là \"đồng ý với mọi thứ\"." },
+      { "style": "quote_gold", "en": "Loyal is \"staying true even when things get difficult\".", "vi": "Trung thành là \"giữ lòng chân thành ngay cả khi mọi thứ trở nên khó khăn\"." }
+    ],
+    "caption": "Trung thành là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Respectful",
+    "word_vi": "Tôn trọng",
+    "bg_query": "conversation",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be respectful?", "vi": "Tôn trọng là gì?" },
+      { "style": "quote_dark", "en": "Respectful is not \"thinking everyone is right\".", "vi": "Tôn trọng không phải là \"nghĩ rằng ai cũng đúng\"." },
+      { "style": "quote_gold", "en": "Respectful is \"valuing others even when you disagree\".", "vi": "Tôn trọng là \"trân trọng người khác ngay cả khi bạn không đồng ý\"." }
+    ],
+    "caption": "Tôn trọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Adaptable",
+    "word_vi": "Thích nghi",
+    "bg_query": "change",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be adaptable?", "vi": "Thích nghi là gì?" },
+      { "style": "quote_dark", "en": "Adaptable is not \"liking every change\".", "vi": "Thích nghi không phải là \"thích mọi sự thay đổi\"." },
+      { "style": "quote_gold", "en": "Adaptable is \"finding a way forward when things change\".", "vi": "Thích nghi là \"tìm ra cách tiến về phía trước khi mọi thứ thay đổi\"." }
+    ],
+    "caption": "Thích nghi là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Determined",
+    "word_vi": "Quyết tâm",
+    "bg_query": "running",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be determined?", "vi": "Quyết tâm là gì?" },
+      { "style": "quote_dark", "en": "Determined is not \"never feeling tired\".", "vi": "Quyết tâm không phải là \"không bao giờ cảm thấy mệt mỏi\"." },
+      { "style": "quote_gold", "en": "Determined is \"continuing because your goal matters\".", "vi": "Quyết tâm là \"tiếp tục vì mục tiêu của bạn thực sự quan trọng\"." }
+    ],
+    "caption": "Quyết tâm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Creative",
+    "word_vi": "Sáng tạo",
+    "bg_query": "artist",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be creative?", "vi": "Sáng tạo là gì?" },
+      { "style": "quote_dark", "en": "Creative is not \"having endless ideas\".", "vi": "Sáng tạo không phải là \"có vô số ý tưởng\"." },
+      { "style": "quote_gold", "en": "Creative is \"seeing possibilities where others see limits\".", "vi": "Sáng tạo là \"nhìn thấy khả năng nơi người khác chỉ thấy giới hạn\"." }
+    ],
+    "caption": "Sáng tạo là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Wise",
+    "word_vi": "Khôn ngoan",
+    "bg_query": "old library",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be wise?", "vi": "Khôn ngoan là gì?" },
+      { "style": "quote_dark", "en": "Wise is not \"knowing everything\".", "vi": "Khôn ngoan không phải là \"biết tất cả mọi thứ\"." },
+      { "style": "quote_gold", "en": "Wise is \"knowing what matters and what does not\".", "vi": "Khôn ngoan là \"biết điều gì quan trọng và điều gì không\"." }
+    ],
+    "caption": "Khôn ngoan là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Mindful",
+    "word_vi": "Chánh niệm",
+    "bg_query": "meditation",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be mindful?", "vi": "Chánh niệm là gì?" },
+      { "style": "quote_dark", "en": "Mindful is not \"never getting distracted\".", "vi": "Chánh niệm không phải là \"không bao giờ mất tập trung\"." },
+      { "style": "quote_gold", "en": "Mindful is \"being present with what is happening now\".", "vi": "Chánh niệm là \"hiện diện với những gì đang xảy ra ngay lúc này\"." }
+    ],
+    "caption": "Chánh niệm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Sincere",
+    "word_vi": "Chân thành",
+    "bg_query": "handshake",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be sincere?", "vi": "Chân thành là gì?" },
+      { "style": "quote_dark", "en": "Sincere is not \"saying what people want to hear\".", "vi": "Chân thành không phải là \"nói điều người khác muốn nghe\"." },
+      { "style": "quote_gold", "en": "Sincere is \"letting your words match your heart\".", "vi": "Chân thành là \"để lời nói phản ánh đúng tấm lòng của bạn\"." }
+    ],
+    "caption": "Chân thành là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Reliable",
+    "word_vi": "Đáng tin cậy",
+    "bg_query": "teamwork",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be reliable?", "vi": "Đáng tin cậy là gì?" },
+      { "style": "quote_dark", "en": "Reliable is not \"never making mistakes\".", "vi": "Đáng tin cậy không phải là \"không bao giờ mắc lỗi\"." },
+      { "style": "quote_gold", "en": "Reliable is \"doing what you said you would do\".", "vi": "Đáng tin cậy là \"làm điều bạn đã nói mình sẽ làm\"." }
+    ],
+    "caption": "Đáng tin cậy là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Open-minded",
+    "word_vi": "Cởi mở",
+    "bg_query": "diverse people",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be open-minded?", "vi": "Cởi mở là gì?" },
+      { "style": "quote_dark", "en": "Open-minded is not \"believing everything\".", "vi": "Cởi mở không phải là \"tin vào mọi thứ\"." },
+      { "style": "quote_gold", "en": "Open-minded is \"being willing to see another perspective\".", "vi": "Cởi mở là \"sẵn sàng nhìn nhận một góc nhìn khác\"." }
+    ],
+    "caption": "Cởi mở là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Positive",
+    "word_vi": "Tích cực",
+    "bg_query": "flowers",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be positive?", "vi": "Tích cực là gì?" },
+      { "style": "quote_dark", "en": "Positive is not \"pretending everything is okay\".", "vi": "Tích cực không phải là \"giả vờ rằng mọi thứ đều ổn\"." },
+      { "style": "quote_gold", "en": "Positive is \"looking for what you can do next\".", "vi": "Tích cực là \"tìm kiếm điều bạn có thể làm tiếp theo\"." }
+    ],
+    "caption": "Tích cực là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Persistent",
+    "word_vi": "Bền bỉ",
+    "bg_query": "stairs",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be persistent?", "vi": "Bền bỉ là gì?" },
+      { "style": "quote_dark", "en": "Persistence is not \"never wanting to quit\".", "vi": "Bền bỉ không phải là \"không bao giờ muốn bỏ cuộc\"." },
+      { "style": "quote_gold", "en": "Persistence is \"choosing to continue one step at a time\".", "vi": "Bền bỉ là \"chọn tiếp tục từng bước một\"." }
+    ],
+    "caption": "Bền bỉ là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Flexible",
+    "word_vi": "Linh hoạt",
+    "bg_query": "river",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be flexible?", "vi": "Linh hoạt là gì?" },
+      { "style": "quote_dark", "en": "Flexible is not \"having no plans\".", "vi": "Linh hoạt không phải là \"không có kế hoạch\"." },
+      { "style": "quote_gold", "en": "Flexible is \"changing your approach when the situation changes\".", "vi": "Linh hoạt là \"thay đổi cách tiếp cận khi hoàn cảnh thay đổi\"." }
+    ],
+    "caption": "Linh hoạt là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Authentic",
+    "word_vi": "Chân thật",
+    "bg_query": "mirror",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be authentic?", "vi": "Chân thật là gì?" },
+      { "style": "quote_dark", "en": "Authentic is not \"showing everyone everything\".", "vi": "Chân thật không phải là \"cho mọi người thấy mọi thứ về mình\"." },
+      { "style": "quote_gold", "en": "Authentic is \"being true to who you are\".", "vi": "Chân thật là \"sống đúng với con người thật của mình\"." }
+    ],
+    "caption": "Chân thật là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Hopeful",
+    "word_vi": "Hy vọng",
+    "bg_query": "sunrise",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be hopeful?", "vi": "Hy vọng là gì?" },
+      { "style": "quote_dark", "en": "Hopeful is not \"expecting everything to work out\".", "vi": "Hy vọng không phải là \"mong mọi thứ sẽ tự tốt đẹp\"." },
+      { "style": "quote_gold", "en": "Hopeful is \"believing tomorrow can be better\".", "vi": "Hy vọng là \"tin rằng ngày mai có thể tốt đẹp hơn\"." }
+    ],
+    "caption": "Hy vọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Self-aware",
+    "word_vi": "Tự nhận thức",
+    "bg_query": "reflection",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be self-aware?", "vi": "Tự nhận thức là gì?" },
+      { "style": "quote_dark", "en": "Self-aware is not \"overthinking yourself\".", "vi": "Tự nhận thức không phải là \"suy nghĩ quá nhiều về bản thân\"." },
+      { "style": "quote_gold", "en": "Self-aware is \"understanding your strengths, weaknesses, and emotions\".", "vi": "Tự nhận thức là \"hiểu điểm mạnh, điểm yếu và cảm xúc của mình\"." }
+    ],
+    "caption": "Tự nhận thức là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Gracious",
+    "word_vi": "Độ lượng",
+    "bg_query": "peaceful",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be gracious?", "vi": "Độ lượng là gì?" },
+      { "style": "quote_dark", "en": "Gracious is not \"letting people walk over you\".", "vi": "Độ lượng không phải là \"để người khác chèn ép mình\"." },
+      { "style": "quote_gold", "en": "Gracious is \"responding with dignity even when you're hurt\".", "vi": "Độ lượng là \"giữ phẩm giá ngay cả khi bạn bị tổn thương\"." }
+    ],
+    "caption": "Độ lượng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Caring",
+    "word_vi": "Quan tâm",
+    "bg_query": "family",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be caring?", "vi": "Quan tâm là gì?" },
+      { "style": "quote_dark", "en": "Caring is not \"solving everyone's problems\".", "vi": "Quan tâm không phải là \"giải quyết mọi vấn đề của người khác\"." },
+      { "style": "quote_gold", "en": "Caring is \"being there when someone needs you\".", "vi": "Quan tâm là \"ở bên khi ai đó cần bạn\"." }
+    ],
+    "caption": "Quan tâm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Diligent",
+    "word_vi": "Chăm chỉ",
+    "bg_query": "working",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be diligent?", "vi": "Chăm chỉ là gì?" },
+      { "style": "quote_dark", "en": "Diligent is not \"working all day\".", "vi": "Chăm chỉ không phải là \"làm việc cả ngày\"." },
+      { "style": "quote_gold", "en": "Diligent is \"doing small things consistently and carefully\".", "vi": "Chăm chỉ là \"làm những điều nhỏ bé một cách đều đặn và cẩn thận\"." }
+    ],
+    "caption": "Chăm chỉ là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Ambitious",
+    "word_vi": "Tham vọng",
+    "bg_query": "skyscraper",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be ambitious?", "vi": "Tham vọng là gì?" },
+      { "style": "quote_dark", "en": "Ambitious is not \"wanting everything\".", "vi": "Tham vọng không phải là \"muốn có tất cả mọi thứ\"." },
+      { "style": "quote_gold", "en": "Ambitious is \"believing you can grow beyond where you are\".", "vi": "Tham vọng là \"tin rằng bạn có thể phát triển vượt xa nơi mình đang đứng\"." }
+    ],
+    "caption": "Tham vọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Determined",
+    "word_vi": "Kiên định",
+    "bg_query": "mountain climbing",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be determined?", "vi": "Kiên định là gì?" },
+      { "style": "quote_dark", "en": "Determined is not \"never changing your mind\".", "vi": "Kiên định không phải là \"không bao giờ thay đổi suy nghĩ\"." },
+      { "style": "quote_gold", "en": "Determined is \"staying committed to what truly matters\".", "vi": "Kiên định là \"giữ cam kết với điều thực sự quan trọng\"." }
+    ],
+    "caption": "Kiên định là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Forgiving",
+    "word_vi": "Bao dung",
+    "bg_query": "peace",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be forgiving?", "vi": "Bao dung là gì?" },
+      { "style": "quote_dark", "en": "Forgiving is not \"forgetting what happened\".", "vi": "Bao dung không phải là \"quên đi chuyện đã xảy ra\"." },
+      { "style": "quote_gold", "en": "Forgiving is \"choosing peace over resentment\".", "vi": "Bao dung là \"chọn sự bình yên thay vì oán giận\"." }
+    ],
+    "caption": "Bao dung là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Attentive",
+    "word_vi": "Chú ý",
+    "bg_query": "reading",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be attentive?", "vi": "Chú ý là gì?" },
+      { "style": "quote_dark", "en": "Attentive is not \"hearing every word\".", "vi": "Chú ý không phải là \"nghe mọi lời được nói\"." },
+      { "style": "quote_gold", "en": "Attentive is \"truly noticing what others are trying to say\".", "vi": "Chú ý là \"thực sự nhận ra điều người khác đang cố gắng nói\"." }
+    ],
+    "caption": "Chú ý là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Patient",
+    "word_vi": "Điềm tĩnh",
+    "bg_query": "forest path",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be patient?", "vi": "Điềm tĩnh là gì?" },
+      { "style": "quote_dark", "en": "Patient is not \"doing nothing\".", "vi": "Điềm tĩnh không phải là \"không làm gì cả\"." },
+      { "style": "quote_gold", "en": "Patient is \"giving things time while continuing to do your part\".", "vi": "Điềm tĩnh là \"cho mọi thứ thời gian trong khi vẫn làm phần việc của mình\"." }
+    ],
+    "caption": "Điềm tĩnh là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Brilliant",
+    "word_vi": "Xuất sắc",
+    "bg_query": "light bulb",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be brilliant?", "vi": "Xuất sắc là gì?" },
+      { "style": "quote_dark", "en": "Brilliant is not \"being better than everyone\".", "vi": "Xuất sắc không phải là \"giỏi hơn tất cả mọi người\"." },
+      { "style": "quote_gold", "en": "Brilliant is \"using your abilities to create something meaningful\".", "vi": "Xuất sắc là \"dùng khả năng của mình để tạo ra điều có ý nghĩa\"." }
+    ],
+    "caption": "Xuất sắc là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Fearless",
+    "word_vi": "Không sợ hãi",
+    "bg_query": "storm",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be fearless?", "vi": "Không sợ hãi là gì?" },
+      { "style": "quote_dark", "en": "Fearless is not \"feeling no fear\".", "vi": "Không sợ hãi không phải là \"không cảm thấy sợ\"." },
+      { "style": "quote_gold", "en": "Fearless is \"refusing to let fear make your decisions\".", "vi": "Không sợ hãi là \"không để nỗi sợ quyết định thay bạn\"." }
+    ],
+    "caption": "Không sợ hãi là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Gracious",
+    "word_vi": "Thanh lịch",
+    "bg_query": "elegant",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be gracious?", "vi": "Thanh lịch là gì?" },
+      { "style": "quote_dark", "en": "Gracious is not \"looking perfect\".", "vi": "Thanh lịch không phải là \"trông hoàn hảo\"." },
+      { "style": "quote_gold", "en": "Gracious is \"carrying yourself with kindness and dignity\".", "vi": "Thanh lịch là \"đối xử với bản thân bằng sự tử tế và phẩm giá\"." }
+    ],
+    "caption": "Thanh lịch là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Resourceful",
+    "word_vi": "Tháo vát",
+    "bg_query": "workshop",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be resourceful?", "vi": "Tháo vát là gì?" },
+      { "style": "quote_dark", "en": "Resourceful is not \"having everything you need\".", "vi": "Tháo vát không phải là \"có sẵn mọi thứ mình cần\"." },
+      { "style": "quote_gold", "en": "Resourceful is \"finding a way with what you have\".", "vi": "Tháo vát là \"tìm ra cách giải quyết với những gì mình có\"." }
+    ],
+    "caption": "Tháo vát là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Observant",
+    "word_vi": "Tinh ý",
+    "bg_query": "city observation",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be observant?", "vi": "Tinh ý là gì?" },
+      { "style": "quote_dark", "en": "Observant is not \"noticing everything\".", "vi": "Tinh ý không phải là \"nhận ra mọi thứ\"." },
+      { "style": "quote_gold", "en": "Observant is \"noticing what others often overlook\".", "vi": "Tinh ý là \"nhận ra những điều người khác thường bỏ qua\"." }
+    ],
+    "caption": "Tinh ý là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Cautious",
+    "word_vi": "Thận trọng",
+    "bg_query": "bridge",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be cautious?", "vi": "Thận trọng là gì?" },
+      { "style": "quote_dark", "en": "Cautious is not \"being afraid to try\".", "vi": "Thận trọng không phải là \"sợ thử điều mới\"." },
+      { "style": "quote_gold", "en": "Cautious is \"thinking before you take the next step\".", "vi": "Thận trọng là \"suy nghĩ trước khi bước tiếp\"." }
+    ],
+    "caption": "Thận trọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Decisive",
+    "word_vi": "Quyết đoán",
+    "bg_query": "crossroads",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be decisive?", "vi": "Quyết đoán là gì?" },
+      { "style": "quote_dark", "en": "Decisive is not \"always knowing the right answer\".", "vi": "Quyết đoán không phải là \"luôn biết câu trả lời đúng\"." },
+      { "style": "quote_gold", "en": "Decisive is \"making a choice and moving forward\".", "vi": "Quyết đoán là \"đưa ra lựa chọn và tiến về phía trước\"." }
+    ],
+    "caption": "Quyết đoán là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Consistent",
+    "word_vi": "Đều đặn",
+    "bg_query": "calendar",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be consistent?", "vi": "Đều đặn là gì?" },
+      { "style": "quote_dark", "en": "Consistent is not \"being perfect every day\".", "vi": "Đều đặn không phải là \"hoàn hảo mỗi ngày\"." },
+      { "style": "quote_gold", "en": "Consistent is \"showing up even on ordinary days\".", "vi": "Đều đặn là \"vẫn xuất hiện và cố gắng ngay cả trong những ngày bình thường\"." }
+    ],
+    "caption": "Đều đặn là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Motivated",
+    "word_vi": "Có động lực",
+    "bg_query": "goal",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be motivated?", "vi": "Có động lực là gì?" },
+      { "style": "quote_dark", "en": "Motivated is not \"feeling inspired every morning\".", "vi": "Có động lực không phải là \"mỗi sáng đều cảm thấy đầy cảm hứng\"." },
+      { "style": "quote_gold", "en": "Motivated is \"remembering why you started\".", "vi": "Có động lực là \"nhớ lý do bạn bắt đầu\"." }
+    ],
+    "caption": "Có động lực là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Thoughtful",
+    "word_vi": "Thấu đáo",
+    "bg_query": "notebook",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be thoughtful?", "vi": "Thấu đáo là gì?" },
+      { "style": "quote_dark", "en": "Thoughtful is not \"thinking about yourself less\".", "vi": "Thấu đáo không phải là \"ít nghĩ về bản thân hơn\"." },
+      { "style": "quote_gold", "en": "Thoughtful is \"considering how your actions affect others\".", "vi": "Thấu đáo là \"nghĩ đến cách hành động của mình ảnh hưởng đến người khác\"." }
+    ],
+    "caption": "Thấu đáo là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Caring",
+    "word_vi": "Biết quan tâm",
+    "bg_query": "friends sunset",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be caring?", "vi": "Biết quan tâm là gì?" },
+      { "style": "quote_dark", "en": "Caring is not \"always having the right words\".", "vi": "Biết quan tâm không phải là \"luôn biết phải nói gì\"." },
+      { "style": "quote_gold", "en": "Caring is \"making people feel that they are not alone\".", "vi": "Biết quan tâm là \"khiến người khác cảm thấy họ không cô đơn\"." }
+    ],
+    "caption": "Biết quan tâm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Curious",
+    "word_vi": "Ham học hỏi",
+    "bg_query": "books",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be curious?", "vi": "Ham học hỏi là gì?" },
+      { "style": "quote_dark", "en": "Curious is not \"asking questions all the time\".", "vi": "Ham học hỏi không phải là \"lúc nào cũng đặt câu hỏi\"." },
+      { "style": "quote_gold", "en": "Curious is \"never being afraid to say, I don't know yet\".", "vi": "Ham học hỏi là \"không ngại nói rằng, tôi vẫn chưa biết\"." }
+    ],
+    "caption": "Ham học hỏi là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Independent",
+    "word_vi": "Tự lập",
+    "bg_query": "solo travel",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be independent?", "vi": "Tự lập là gì?" },
+      { "style": "quote_dark", "en": "Independent is not \"doing everything alone\".", "vi": "Tự lập không phải là \"tự làm mọi thứ một mình\"." },
+      { "style": "quote_gold", "en": "Independent is \"knowing when to stand alone and when to ask for help\".", "vi": "Tự lập là \"biết khi nào nên tự đứng vững và khi nào nên tìm kiếm sự giúp đỡ\"." }
+    ],
+    "caption": "Tự lập là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Responsible",
+    "word_vi": "Trách nhiệm",
+    "bg_query": "business",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be responsible?", "vi": "Trách nhiệm là gì?" },
+      { "style": "quote_dark", "en": "Responsible is not \"blaming yourself for everything\".", "vi": "Trách nhiệm không phải là \"đổ lỗi cho bản thân về mọi thứ\"." },
+      { "style": "quote_gold", "en": "Responsible is \"doing your part and owning the outcome\".", "vi": "Trách nhiệm là \"làm tốt phần việc của mình và chịu trách nhiệm với kết quả\"." }
+    ],
+    "caption": "Trách nhiệm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Optimistic",
+    "word_vi": "Hy vọng tích cực",
+    "bg_query": "green field",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to stay optimistic?", "vi": "Giữ sự lạc quan là gì?" },
+      { "style": "quote_dark", "en": "Optimistic is not \"expecting an easy life\".", "vi": "Lạc quan không phải là \"mong một cuộc sống dễ dàng\"." },
+      { "style": "quote_gold", "en": "Optimistic is \"believing difficult moments can still teach you something\".", "vi": "Lạc quan là \"tin rằng những thời điểm khó khăn vẫn có thể dạy bạn điều gì đó\"." }
+    ],
+    "caption": "Giữ sự lạc quan là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Resilient",
+    "word_vi": "Kiên cường",
+    "bg_query": "tree storm",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be resilient?", "vi": "Kiên cường là gì?" },
+      { "style": "quote_dark", "en": "Resilient is not \"never breaking down\".", "vi": "Kiên cường không phải là \"không bao giờ suy sụp\"." },
+      { "style": "quote_gold", "en": "Resilient is \"finding your strength again after a hard day\".", "vi": "Kiên cường là \"tìm lại sức mạnh của mình sau một ngày khó khăn\"." }
+    ],
+    "caption": "Kiên cường là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Confident",
+    "word_vi": "Tự tin",
+    "bg_query": "standing alone",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be confident?", "vi": "Tự tin là gì?" },
+      { "style": "quote_dark", "en": "Confidence is not \"never doubting yourself\".", "vi": "Tự tin không phải là \"không bao giờ nghi ngờ bản thân\"." },
+      { "style": "quote_gold", "en": "Confidence is \"trusting yourself even when you're uncertain\".", "vi": "Tự tin là \"tin tưởng bản thân ngay cả khi bạn chưa chắc chắn\"." }
+    ],
+    "caption": "Tự tin là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Humble",
+    "word_vi": "Khiêm nhường",
+    "bg_query": "simple life",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be humble?", "vi": "Khiêm nhường là gì?" },
+      { "style": "quote_dark", "en": "Humble is not \"hiding your achievements\".", "vi": "Khiêm nhường không phải là \"che giấu thành tựu của mình\"." },
+      { "style": "quote_gold", "en": "Humble is \"being proud without looking down on others\".", "vi": "Khiêm nhường là \"tự hào về bản thân mà không coi thường người khác\"." }
+    ],
+    "caption": "Khiêm nhường là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Disciplined",
+    "word_vi": "Có kỷ luật",
+    "bg_query": "gym morning",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be disciplined?", "vi": "Có kỷ luật là gì?" },
+      { "style": "quote_dark", "en": "Discipline is not \"waiting for motivation\".", "vi": "Kỷ luật không phải là \"chờ có động lực mới bắt đầu\"." },
+      { "style": "quote_gold", "en": "Discipline is \"keeping promises you make to yourself\".", "vi": "Kỷ luật là \"giữ lời hứa mà bạn đã dành cho chính mình\"." }
+    ],
+    "caption": "Có kỷ luật là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Honest",
+    "word_vi": "Thành thật",
+    "bg_query": "conversation",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be honest?", "vi": "Thành thật là gì?" },
+      { "style": "quote_dark", "en": "Honest is not \"saying everything you think\".", "vi": "Thành thật không phải là \"nói ra mọi điều bạn nghĩ\"." },
+      { "style": "quote_gold", "en": "Honest is \"telling the truth without trying to hurt someone\".", "vi": "Thành thật là \"nói sự thật mà không cố làm tổn thương người khác\"." }
+    ],
+    "caption": "Thành thật là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Brave",
+    "word_vi": "Dũng cảm",
+    "bg_query": "rainy city",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be brave?", "vi": "Dũng cảm là gì?" },
+      { "style": "quote_dark", "en": "Being brave is not \"knowing you will succeed\".", "vi": "Dũng cảm không phải là \"biết chắc mình sẽ thành công\"." },
+      { "style": "quote_gold", "en": "Being brave is \"trying even when failure is possible\".", "vi": "Dũng cảm là \"thử sức ngay cả khi thất bại là điều có thể xảy ra\"." }
+    ],
+    "caption": "Dũng cảm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Grateful",
+    "word_vi": "Biết ơn",
+    "bg_query": "morning coffee",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be grateful?", "vi": "Biết ơn là gì?" },
+      { "style": "quote_dark", "en": "Grateful is not \"having a perfect life\".", "vi": "Biết ơn không phải là \"có một cuộc sống hoàn hảo\"." },
+      { "style": "quote_gold", "en": "Grateful is \"appreciating the good you have today\".", "vi": "Biết ơn là \"trân trọng những điều tốt đẹp bạn đang có hôm nay\"." }
+    ],
+    "caption": "Biết ơn là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Patient",
+    "word_vi": "Kiên nhẫn",
+    "bg_query": "waiting",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be patient?", "vi": "Kiên nhẫn là gì?" },
+      { "style": "quote_dark", "en": "Patient is not \"giving up your goals\".", "vi": "Kiên nhẫn không phải là \"từ bỏ mục tiêu của mình\"." },
+      { "style": "quote_gold", "en": "Patient is \"letting progress take the time it needs\".", "vi": "Kiên nhẫn là \"để sự tiến bộ có đủ thời gian cần thiết\"." }
+    ],
+    "caption": "Kiên nhẫn là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Kind-hearted",
+    "word_vi": "Tốt bụng",
+    "bg_query": "kindness",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be kind-hearted?", "vi": "Tốt bụng là gì?" },
+      { "style": "quote_dark", "en": "Kind-hearted is not \"being weak\".", "vi": "Tốt bụng không phải là \"yếu đuối\"." },
+      { "style": "quote_gold", "en": "Kind-hearted is \"choosing kindness without losing your strength\".", "vi": "Tốt bụng là \"chọn sự tử tế mà không đánh mất sức mạnh của mình\"." }
+    ],
+    "caption": "Tốt bụng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Selfless",
+    "word_vi": "Vị tha",
+    "bg_query": "helping others",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be selfless?", "vi": "Vị tha là gì?" },
+      { "style": "quote_dark", "en": "Selfless is not \"forgetting yourself\".", "vi": "Vị tha không phải là \"quên đi bản thân mình\"." },
+      { "style": "quote_gold", "en": "Selfless is \"caring about others without always putting yourself first\".", "vi": "Vị tha là \"quan tâm đến người khác mà không luôn đặt bản thân lên trước\"." }
+    ],
+    "caption": "Vị tha là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Passionate",
+    "word_vi": "Đam mê",
+    "bg_query": "creative work",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be passionate?", "vi": "Đam mê là gì?" },
+      { "style": "quote_dark", "en": "Passionate is not \"being excited all the time\".", "vi": "Đam mê không phải là \"lúc nào cũng hào hứng\"." },
+      { "style": "quote_gold", "en": "Passionate is \"caring enough to keep improving\".", "vi": "Đam mê là \"đủ quan tâm để không ngừng tiến bộ\"." }
+    ],
+    "caption": "Đam mê là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Focused",
+    "word_vi": "Tập trung",
+    "bg_query": "deep work",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be focused?", "vi": "Tập trung là gì?" },
+      { "style": "quote_dark", "en": "Focused is not \"ignoring everything around you\".", "vi": "Tập trung không phải là \"phớt lờ mọi thứ xung quanh\"." },
+      { "style": "quote_gold", "en": "Focused is \"knowing what deserves your attention\".", "vi": "Tập trung là \"biết điều gì xứng đáng với sự chú ý của bạn\"." }
+    ],
+    "caption": "Tập trung là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Creative",
+    "word_vi": "Sáng tạo",
+    "bg_query": "design studio",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be creative?", "vi": "Sáng tạo là gì?" },
+      { "style": "quote_dark", "en": "Creative is not \"waiting for inspiration\".", "vi": "Sáng tạo không phải là \"chờ cảm hứng xuất hiện\"." },
+      { "style": "quote_gold", "en": "Creative is \"making something from an idea\".", "vi": "Sáng tạo là \"biến một ý tưởng thành một điều gì đó\"." }
+    ],
+    "caption": "Sáng tạo là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Adaptable",
+    "word_vi": "Biết thích nghi",
+    "bg_query": "ocean waves",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be adaptable?", "vi": "Biết thích nghi là gì?" },
+      { "style": "quote_dark", "en": "Adaptable is not \"accepting every situation\".", "vi": "Biết thích nghi không phải là \"chấp nhận mọi hoàn cảnh\"." },
+      { "style": "quote_gold", "en": "Adaptable is \"learning how to move with change\".", "vi": "Biết thích nghi là \"học cách chuyển mình cùng với sự thay đổi\"." }
+    ],
+    "caption": "Biết thích nghi là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Sincere",
+    "word_vi": "Chân thành",
+    "bg_query": "warm light",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be sincere?", "vi": "Chân thành là gì?" },
+      { "style": "quote_dark", "en": "Sincere is not \"saying nice things\".", "vi": "Chân thành không phải là \"nói những điều dễ nghe\"." },
+      { "style": "quote_gold", "en": "Sincere is \"meaning what you say and saying what you mean\".", "vi": "Chân thành là \"nói điều mình thực sự nghĩ và sống đúng với điều mình nói\"." }
+    ],
+    "caption": "Chân thành là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Reliable",
+    "word_vi": "Đáng tin",
+    "bg_query": "team meeting",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be reliable?", "vi": "Đáng tin là gì?" },
+      { "style": "quote_dark", "en": "Reliable is not \"being available all the time\".", "vi": "Đáng tin không phải là \"lúc nào cũng có mặt\"." },
+      { "style": "quote_gold", "en": "Reliable is \"being someone others can count on\".", "vi": "Đáng tin là \"trở thành người mà người khác có thể dựa vào\"." }
+    ],
+    "caption": "Đáng tin là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Open-minded",
+    "word_vi": "Có tư duy cởi mở",
+    "bg_query": "people conversation",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be open-minded?", "vi": "Có tư duy cởi mở là gì?" },
+      { "style": "quote_dark", "en": "Open-minded is not \"agreeing with everyone\".", "vi": "Cởi mở không phải là \"đồng ý với tất cả mọi người\"." },
+      { "style": "quote_gold", "en": "Open-minded is \"listening before deciding what to believe\".", "vi": "Cởi mở là \"lắng nghe trước khi quyết định mình nên tin điều gì\"." }
+    ],
+    "caption": "Có tư duy cởi mở là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Wise",
+    "word_vi": "Sáng suốt",
+    "bg_query": "sunset mountains",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be wise?", "vi": "Sáng suốt là gì?" },
+      { "style": "quote_dark", "en": "Wise is not \"having an answer for everything\".", "vi": "Sáng suốt không phải là \"có câu trả lời cho mọi thứ\"." },
+      { "style": "quote_gold", "en": "Wise is \"knowing when to speak, when to listen, and when to let go\".", "vi": "Sáng suốt là \"biết khi nào nên nói, khi nào nên lắng nghe và khi nào nên buông bỏ\"." }
+    ],
+    "caption": "Sáng suốt là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Mindful",
+    "word_vi": "Sống tỉnh thức",
+    "bg_query": "quiet morning",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be mindful?", "vi": "Sống tỉnh thức là gì?" },
+      { "style": "quote_dark", "en": "Mindful is not \"escaping your thoughts\".", "vi": "Sống tỉnh thức không phải là \"trốn khỏi những suy nghĩ của mình\"." },
+      { "style": "quote_gold", "en": "Mindful is \"noticing your thoughts without letting them control you\".", "vi": "Sống tỉnh thức là \"nhận biết suy nghĩ mà không để chúng kiểm soát mình\"." }
+    ],
+    "caption": "Sống tỉnh thức là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Respectful",
+    "word_vi": "Biết tôn trọng",
+    "bg_query": "handshake",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be respectful?", "vi": "Biết tôn trọng là gì?" },
+      { "style": "quote_dark", "en": "Respectful is not \"being afraid of others\".", "vi": "Tôn trọng không phải là \"sợ người khác\"." },
+      { "style": "quote_gold", "en": "Respectful is \"treating people with dignity, even when you disagree\".", "vi": "Tôn trọng là \"đối xử với người khác bằng phẩm giá ngay cả khi bạn bất đồng\"." }
+    ],
+    "caption": "Biết tôn trọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Compassionate",
+    "word_vi": "Biết cảm thông",
+    "bg_query": "support",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be compassionate?", "vi": "Biết cảm thông là gì?" },
+      { "style": "quote_dark", "en": "Compassionate is not \"fixing everyone's pain\".", "vi": "Biết cảm thông không phải là \"chữa lành nỗi đau của tất cả mọi người\"." },
+      { "style": "quote_gold", "en": "Compassionate is \"staying beside someone while they heal\".", "vi": "Biết cảm thông là \"ở bên cạnh ai đó trong khi họ chữa lành\"." }
+    ],
+    "caption": "Biết cảm thông là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Generous",
+    "word_vi": "Biết cho đi",
+    "bg_query": "sharing food",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be generous?", "vi": "Biết cho đi là gì?" },
+      { "style": "quote_dark", "en": "Generous is not \"giving when you have plenty\".", "vi": "Biết cho đi không phải là \"chỉ cho khi bạn có thật nhiều\"." },
+      { "style": "quote_gold", "en": "Generous is \"sharing what you can, when you can\".", "vi": "Biết cho đi là \"chia sẻ những gì bạn có thể, khi bạn có thể\"." }
+    ],
+    "caption": "Biết cho đi là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Loyal",
+    "word_vi": "Thủy chung",
+    "bg_query": "friendship",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be loyal?", "vi": "Thủy chung là gì?" },
+      { "style": "quote_dark", "en": "Loyal is not \"staying no matter what\".", "vi": "Thủy chung không phải là \"ở lại bất kể điều gì\"." },
+      { "style": "quote_gold", "en": "Loyal is \"being honest, even when honesty is difficult\".", "vi": "Thủy chung là \"chân thành ngay cả khi sự chân thành trở nên khó khăn\"." }
+    ],
+    "caption": "Thủy chung là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Hopeful",
+    "word_vi": "Có hy vọng",
+    "bg_query": "light through clouds",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be hopeful?", "vi": "Có hy vọng là gì?" },
+      { "style": "quote_dark", "en": "Hopeful is not \"ignoring how hard things are\".", "vi": "Có hy vọng không phải là \"phớt lờ mọi thứ đang khó khăn thế nào\"." },
+      { "style": "quote_gold", "en": "Hopeful is \"believing there is still a reason to keep going\".", "vi": "Có hy vọng là \"tin rằng vẫn còn một lý do để tiếp tục\"." }
+    ],
+    "caption": "Có hy vọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Purposeful",
+    "word_vi": "Có mục đích",
+    "bg_query": "road destination",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be purposeful?", "vi": "Sống có mục đích là gì?" },
+      { "style": "quote_dark", "en": "Purposeful is not \"having every answer\".", "vi": "Sống có mục đích không phải là \"có câu trả lời cho mọi thứ\"." },
+      { "style": "quote_gold", "en": "Purposeful is \"knowing why your actions matter\".", "vi": "Sống có mục đích là \"biết vì sao những hành động của mình có ý nghĩa\"." }
+    ],
+    "caption": "Sống có mục đích là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Fearless",
+    "word_vi": "Gan dạ",
+    "bg_query": "ocean cliff",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be fearless?", "vi": "Gan dạ là gì?" },
+      { "style": "quote_dark", "en": "Fearless is not \"never feeling nervous\".", "vi": "Gan dạ không phải là \"không bao giờ cảm thấy lo lắng\"." },
+      { "style": "quote_gold", "en": "Fearless is \"taking the step anyway\".", "vi": "Gan dạ là \"vẫn bước đi dù thế nào đi nữa\"." }
+    ],
+    "caption": "Gan dạ là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Diligent",
+    "word_vi": "Siêng năng",
+    "bg_query": "studying desk",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be diligent?", "vi": "Siêng năng là gì?" },
+      { "style": "quote_dark", "en": "Diligent is not \"working without rest\".", "vi": "Siêng năng không phải là \"làm việc không nghỉ\"." },
+      { "style": "quote_gold", "en": "Diligent is \"taking care of the work in front of you\".", "vi": "Siêng năng là \"tận tâm với công việc đang ở trước mắt\"." }
+    ],
+    "caption": "Siêng năng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Ambitious",
+    "word_vi": "Có hoài bão",
+    "bg_query": "city skyline",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to have ambition?", "vi": "Có hoài bão là gì?" },
+      { "style": "quote_dark", "en": "Ambition is not \"wanting to be better than everyone\".", "vi": "Hoài bão không phải là \"muốn giỏi hơn tất cả mọi người\"." },
+      { "style": "quote_gold", "en": "Ambition is \"wanting to become better than who you were yesterday\".", "vi": "Hoài bão là \"muốn trở thành phiên bản tốt hơn của chính mình ngày hôm qua\"." }
+    ],
+    "caption": "Có hoài bão là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Patient-hearted",
+    "word_vi": "Bao dung với thời gian",
+    "bg_query": "hourglass",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be patient with yourself?", "vi": "Kiên nhẫn với bản thân là gì?" },
+      { "style": "quote_dark", "en": "Patience is not \"expecting instant results\".", "vi": "Kiên nhẫn không phải là \"mong có kết quả ngay lập tức\"." },
+      { "style": "quote_gold", "en": "Patience is \"giving yourself permission to grow slowly\".", "vi": "Kiên nhẫn là \"cho phép bản thân phát triển từng chút một\"." }
+    ],
+    "caption": "Kiên nhẫn với bản thân là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Determined",
+    "word_vi": "Không bỏ cuộc",
+    "bg_query": "long road",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to never give up?", "vi": "Không bỏ cuộc là gì?" },
+      { "style": "quote_dark", "en": "Determination is not \"never feeling defeated\".", "vi": "Quyết tâm không phải là \"không bao giờ cảm thấy thất bại\"." },
+      { "style": "quote_gold", "en": "Determination is \"getting back up and trying again\".", "vi": "Quyết tâm là \"đứng dậy và thử lại một lần nữa\"." }
+    ],
+    "caption": "Không bỏ cuộc là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Peaceful",
+    "word_vi": "Bình yên",
+    "bg_query": "peaceful lake",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be peaceful?", "vi": "Bình yên là gì?" },
+      { "style": "quote_dark", "en": "Peaceful is not \"having no problems\".", "vi": "Bình yên không phải là \"không có vấn đề\"." },
+      { "style": "quote_gold", "en": "Peaceful is \"not letting every problem steal your peace\".", "vi": "Bình yên là \"không để mọi vấn đề lấy đi sự bình yên của bạn\"." }
+    ],
+    "caption": "Bình yên là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Content",
+    "word_vi": "Mãn nguyện",
+    "bg_query": "cozy home",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be content?", "vi": "Mãn nguyện là gì?" },
+      { "style": "quote_dark", "en": "Content is not \"giving up on your dreams\".", "vi": "Mãn nguyện không phải là \"từ bỏ ước mơ\"." },
+      { "style": "quote_gold", "en": "Content is \"being grateful for today while building tomorrow\".", "vi": "Mãn nguyện là \"biết ơn hôm nay trong khi vẫn xây dựng ngày mai\"." }
+    ],
+    "caption": "Mãn nguyện là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Courageous",
+    "word_vi": "Can trường",
+    "bg_query": "mountain sunrise",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be courageous?", "vi": "Can trường là gì?" },
+      { "style": "quote_dark", "en": "Courage is not \"knowing what will happen\".", "vi": "Can trường không phải là \"biết trước điều gì sẽ xảy ra\"." },
+      { "style": "quote_gold", "en": "Courage is \"moving forward without knowing the outcome\".", "vi": "Can trường là \"tiến về phía trước dù chưa biết kết quả\"." }
+    ],
+    "caption": "Can trường là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Optimistic",
+    "word_vi": "Tin vào điều tốt",
+    "bg_query": "golden hour",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to believe in better days?", "vi": "Tin vào những ngày tốt đẹp hơn là gì?" },
+      { "style": "quote_dark", "en": "Optimism is not \"denying reality\".", "vi": "Lạc quan không phải là \"phủ nhận thực tế\"." },
+      { "style": "quote_gold", "en": "Optimism is \"believing reality can change\".", "vi": "Lạc quan là \"tin rằng thực tế có thể thay đổi\"." }
+    ],
+    "caption": "Tin vào điều tốt là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Resilient",
+    "word_vi": "Không dễ gục ngã",
+    "bg_query": "forest after rain",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be resilient?", "vi": "Không dễ gục ngã là gì?" },
+      { "style": "quote_dark", "en": "Resilience is not \"never getting hurt\".", "vi": "Kiên cường không phải là \"không bao giờ bị tổn thương\"." },
+      { "style": "quote_gold", "en": "Resilience is \"healing and continuing despite the pain\".", "vi": "Kiên cường là \"chữa lành và tiếp tục dù vẫn còn đau\"." }
+    ],
+    "caption": "Không dễ gục ngã là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Authentic",
+    "word_vi": "Sống thật",
+    "bg_query": "natural portrait",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be authentic?", "vi": "Sống thật là gì?" },
+      { "style": "quote_dark", "en": "Authentic is not \"being liked by everyone\".", "vi": "Sống thật không phải là \"được tất cả mọi người yêu thích\"." },
+      { "style": "quote_gold", "en": "Authentic is \"being comfortable with who you really are\".", "vi": "Sống thật là \"thoải mái với con người thật của chính mình\"." }
+    ],
+    "caption": "Sống thật là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Self-aware",
+    "word_vi": "Hiểu bản thân",
+    "bg_query": "mirror reflection",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to understand yourself?", "vi": "Hiểu bản thân là gì?" },
+      { "style": "quote_dark", "en": "Self-awareness is not \"knowing every answer\".", "vi": "Tự nhận thức không phải là \"biết mọi câu trả lời\"." },
+      { "style": "quote_gold", "en": "Self-awareness is \"being honest about who you are\".", "vi": "Tự nhận thức là \"thành thật với chính con người mình\"." }
+    ],
+    "caption": "Hiểu bản thân là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Purposeful",
+    "word_vi": "Có định hướng",
+    "bg_query": "compass",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be purposeful?", "vi": "Có định hướng là gì?" },
+      { "style": "quote_dark", "en": "Purposeful is not \"being busy all day\".", "vi": "Có định hướng không phải là \"bận rộn cả ngày\"." },
+      { "style": "quote_gold", "en": "Purposeful is \"spending your time on what truly matters\".", "vi": "Có định hướng là \"dành thời gian cho điều thực sự quan trọng\"." }
+    ],
+    "caption": "Có định hướng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Responsible",
+    "word_vi": "Biết chịu trách nhiệm",
+    "bg_query": "leader",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to take responsibility?", "vi": "Biết chịu trách nhiệm là gì?" },
+      { "style": "quote_dark", "en": "Responsibility is not \"taking all the blame\".", "vi": "Trách nhiệm không phải là \"nhận mọi lỗi lầm\"." },
+      { "style": "quote_gold", "en": "Responsibility is \"learning from your choices and doing better next time\".", "vi": "Trách nhiệm là \"học từ lựa chọn của mình và làm tốt hơn vào lần sau\"." }
+    ],
+    "caption": "Biết chịu trách nhiệm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Forgiving",
+    "word_vi": "Biết buông bỏ",
+    "bg_query": "letting go",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to let go?", "vi": "Biết buông bỏ là gì?" },
+      { "style": "quote_dark", "en": "Letting go is not \"forgetting the past\".", "vi": "Buông bỏ không phải là \"quên đi quá khứ\"." },
+      { "style": "quote_gold", "en": "Letting go is \"choosing not to let the past control your future\".", "vi": "Buông bỏ là \"không để quá khứ kiểm soát tương lai của bạn\"." }
+    ],
+    "caption": "Biết buông bỏ là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Grateful",
+    "word_vi": "Trân trọng",
+    "bg_query": "simple life",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to appreciate life?", "vi": "Trân trọng cuộc sống là gì?" },
+      { "style": "quote_dark", "en": "Gratitude is not \"being satisfied with everything\".", "vi": "Biết ơn không phải là \"hài lòng với mọi thứ\"." },
+      { "style": "quote_gold", "en": "Gratitude is \"noticing the moments you once wished for\".", "vi": "Biết ơn là \"nhận ra những khoảnh khắc mà bạn từng ao ước\"." }
+    ],
+    "caption": "Trân trọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Kind",
+    "word_vi": "Tử tế",
+    "bg_query": "small kindness",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be kind?", "vi": "Tử tế là gì?" },
+      { "style": "quote_dark", "en": "Kindness is not \"doing something big\".", "vi": "Tử tế không phải là \"làm điều gì đó lớn lao\"." },
+      { "style": "quote_gold", "en": "Kindness is \"making someone feel seen and valued\".", "vi": "Tử tế là \"khiến ai đó cảm thấy họ được nhìn thấy và trân trọng\"." }
+    ],
+    "caption": "Tử tế là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Humble",
+    "word_vi": "Không kiêu ngạo",
+    "bg_query": "quiet success",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be humble?", "vi": "Không kiêu ngạo là gì?" },
+      { "style": "quote_dark", "en": "Humility is not \"hiding your strengths\".", "vi": "Khiêm tốn không phải là \"che giấu điểm mạnh của mình\"." },
+      { "style": "quote_gold", "en": "Humility is \"knowing you can still learn from everyone\".", "vi": "Khiêm tốn là \"biết rằng mình vẫn có thể học hỏi từ tất cả mọi người\"." }
+    ],
+    "caption": "Không kiêu ngạo là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Disciplined",
+    "word_vi": "Tự giác",
+    "bg_query": "early morning study",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be self-disciplined?", "vi": "Tự giác là gì?" },
+      { "style": "quote_dark", "en": "Self-discipline is not \"forcing yourself forever\".", "vi": "Tự giác không phải là \"ép buộc bản thân mãi mãi\"." },
+      { "style": "quote_gold", "en": "Self-discipline is \"choosing your future over your comfort today\".", "vi": "Tự giác là \"chọn tương lai của mình thay vì sự thoải mái nhất thời hôm nay\"." }
+    ],
+    "caption": "Tự giác là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Persistent",
+    "word_vi": "Bền chí",
+    "bg_query": "long journey",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be persistent?", "vi": "Bền chí là gì?" },
+      { "style": "quote_dark", "en": "Persistence is not \"moving fast\".", "vi": "Bền chí không phải là \"tiến thật nhanh\"." },
+      { "style": "quote_gold", "en": "Persistence is \"refusing to stop just because progress is slow\".", "vi": "Bền chí là \"không dừng lại chỉ vì tiến bộ đang diễn ra chậm\"." }
+    ],
+    "caption": "Bền chí là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Patient",
+    "word_vi": "Biết chờ đợi",
+    "bg_query": "sunset beach",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to wait patiently?", "vi": "Biết chờ đợi là gì?" },
+      { "style": "quote_dark", "en": "Patience is not \"doing nothing\".", "vi": "Kiên nhẫn không phải là \"không làm gì cả\"." },
+      { "style": "quote_gold", "en": "Patience is \"doing your best while accepting that some things take time\".", "vi": "Kiên nhẫn là \"làm hết sức mình và chấp nhận rằng một số điều cần thời gian\"." }
+    ],
+    "caption": "Biết chờ đợi là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Honest",
+    "word_vi": "Thật lòng",
+    "bg_query": "heart",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be genuine?", "vi": "Thật lòng là gì?" },
+      { "style": "quote_dark", "en": "Being genuine is not \"saying everything\".", "vi": "Thật lòng không phải là \"nói ra tất cả mọi thứ\"." },
+      { "style": "quote_gold", "en": "Being genuine is \"letting your actions match your intentions\".", "vi": "Thật lòng là \"để hành động của bạn phù hợp với ý định trong lòng\"." }
+    ],
+    "caption": "Thật lòng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Brave",
+    "word_vi": "Dám thử",
+    "bg_query": "new beginning",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be brave enough to try?", "vi": "Dám thử là gì?" },
+      { "style": "quote_dark", "en": "Brave is not \"knowing you won't fail\".", "vi": "Dũng cảm không phải là \"biết mình sẽ không thất bại\"." },
+      { "style": "quote_gold", "en": "Brave is \"giving yourself a chance despite the risk\".", "vi": "Dũng cảm là \"cho bản thân một cơ hội dù vẫn có rủi ro\"." }
+    ],
+    "caption": "Dám thử là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Curious",
+    "word_vi": "Muốn khám phá",
+    "bg_query": "exploration",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be curious?", "vi": "Muốn khám phá là gì?" },
+      { "style": "quote_dark", "en": "Curiosity is not \"knowing where the journey ends\".", "vi": "Tò mò không phải là \"biết hành trình sẽ kết thúc ở đâu\"." },
+      { "style": "quote_gold", "en": "Curiosity is \"being excited to discover what comes next\".", "vi": "Tò mò là \"háo hức khám phá điều gì sẽ đến tiếp theo\"." }
+    ],
+    "caption": "Muốn khám phá là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Creative",
+    "word_vi": "Dám khác biệt",
+    "bg_query": "abstract art",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be creative?", "vi": "Dám khác biệt là gì?" },
+      { "style": "quote_dark", "en": "Creative is not \"being different for attention\".", "vi": "Sáng tạo không phải là \"khác biệt để thu hút sự chú ý\"." },
+      { "style": "quote_gold", "en": "Creative is \"finding a new way to see an old problem\".", "vi": "Sáng tạo là \"tìm một cách mới để nhìn một vấn đề cũ\"." }
+    ],
+    "caption": "Dám khác biệt là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Focused",
+    "word_vi": "Kiên định với mục tiêu",
+    "bg_query": "target",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to stay focused?", "vi": "Kiên định với mục tiêu là gì?" },
+      { "style": "quote_dark", "en": "Focus is not \"doing more\".", "vi": "Tập trung không phải là \"làm nhiều hơn\"." },
+      { "style": "quote_gold", "en": "Focus is \"doing fewer things that matter more\".", "vi": "Tập trung là \"làm ít điều hơn nhưng quan trọng hơn\"." }
+    ],
+    "caption": "Kiên định với mục tiêu là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Calm",
+    "word_vi": "Điềm đạm",
+    "bg_query": "calm ocean",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be calm?", "vi": "Điềm đạm là gì?" },
+      { "style": "quote_dark", "en": "Calm is not \"never feeling angry\".", "vi": "Điềm đạm không phải là \"không bao giờ tức giận\"." },
+      { "style": "quote_gold", "en": "Calm is \"choosing your response instead of reacting immediately\".", "vi": "Điềm đạm là \"chọn cách phản ứng thay vì phản ứng ngay lập tức\"." }
+    ],
+    "caption": "Điềm đạm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Flexible",
+    "word_vi": "Biết thay đổi",
+    "bg_query": "bamboo",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be flexible?", "vi": "Biết thay đổi là gì?" },
+      { "style": "quote_dark", "en": "Flexible is not \"changing who you are\".", "vi": "Linh hoạt không phải là \"thay đổi con người mình\"." },
+      { "style": "quote_gold", "en": "Flexible is \"changing your path without losing your direction\".", "vi": "Linh hoạt là \"thay đổi con đường mà không đánh mất phương hướng\"." }
+    ],
+    "caption": "Biết thay đổi là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Reliable",
+    "word_vi": "Giữ lời",
+    "bg_query": "promise",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to keep your word?", "vi": "Giữ lời là gì?" },
+      { "style": "quote_dark", "en": "Keeping your word is not \"making promises easily\".", "vi": "Giữ lời không phải là \"dễ dàng hứa hẹn\"." },
+      { "style": "quote_gold", "en": "Keeping your word is \"letting your actions speak for you\".", "vi": "Giữ lời là \"để hành động lên tiếng thay cho bạn\"." }
+    ],
+    "caption": "Giữ lời là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Respectful",
+    "word_vi": "Biết lắng nghe",
+    "bg_query": "listening",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to truly listen?", "vi": "Biết lắng nghe là gì?" },
+      { "style": "quote_dark", "en": "Listening is not \"waiting for your turn to speak\".", "vi": "Lắng nghe không phải là \"chờ đến lượt mình nói\"." },
+      { "style": "quote_gold", "en": "Listening is \"trying to understand before trying to be understood\".", "vi": "Lắng nghe là \"cố gắng thấu hiểu trước khi muốn người khác hiểu mình\"." }
+    ],
+    "caption": "Biết lắng nghe là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Thoughtful",
+    "word_vi": "Biết nghĩ cho người khác",
+    "bg_query": "helping friend",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be thoughtful?", "vi": "Biết nghĩ cho người khác là gì?" },
+      { "style": "quote_dark", "en": "Thoughtful is not \"doing what everyone expects\".", "vi": "Chu đáo không phải là \"làm điều mọi người mong đợi\"." },
+      { "style": "quote_gold", "en": "Thoughtful is \"remembering what matters to the people you care about\".", "vi": "Chu đáo là \"nhớ những điều quan trọng với những người bạn quan tâm\"." }
+    ],
+    "caption": "Biết nghĩ cho người khác là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Generous",
+    "word_vi": "Rộng lượng",
+    "bg_query": "helping stranger",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be generous?", "vi": "Rộng lượng là gì?" },
+      { "style": "quote_dark", "en": "Generous is not \"never saying no\".", "vi": "Rộng lượng không phải là \"không bao giờ nói không\"." },
+      { "style": "quote_gold", "en": "Generous is \"giving with a willing heart while respecting your limits\".", "vi": "Rộng lượng là \"cho đi bằng tấm lòng rộng mở nhưng vẫn tôn trọng giới hạn của mình\"." }
+    ],
+    "caption": "Rộng lượng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Compassionate",
+    "word_vi": "Thấu cảm",
+    "bg_query": "empathy",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be empathetic?", "vi": "Thấu cảm là gì?" },
+      { "style": "quote_dark", "en": "Empathy is not \"agreeing with someone's feelings\".", "vi": "Thấu cảm không phải là \"đồng ý với cảm xúc của ai đó\"." },
+      { "style": "quote_gold", "en": "Empathy is \"trying to understand how someone else feels\".", "vi": "Thấu cảm là \"cố gắng hiểu người khác đang cảm thấy thế nào\"." }
+    ],
+    "caption": "Thấu cảm là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Sincere",
+    "word_vi": "Không giả tạo",
+    "bg_query": "authentic person",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be sincere?", "vi": "Không giả tạo là gì?" },
+      { "style": "quote_dark", "en": "Sincere is not \"acting kind to be praised\".", "vi": "Chân thành không phải là \"tỏ ra tử tế để được khen\"." },
+      { "style": "quote_gold", "en": "Sincere is \"doing good even when nobody is watching\".", "vi": "Chân thành là \"làm điều tốt ngay cả khi không ai nhìn thấy\"." }
+    ],
+    "caption": "Không giả tạo là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Selfless",
+    "word_vi": "Biết hy sinh",
+    "bg_query": "family support",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be selfless?", "vi": "Biết hy sinh là gì?" },
+      { "style": "quote_dark", "en": "Selfless is not \"sacrificing everything\".", "vi": "Biết hy sinh không phải là \"hy sinh tất cả mọi thứ\"." },
+      { "style": "quote_gold", "en": "Selfless is \"giving when someone truly needs you\".", "vi": "Biết hy sinh là \"cho đi khi ai đó thực sự cần bạn\"." }
+    ],
+    "caption": "Biết hy sinh là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Caring",
+    "word_vi": "Biết yêu thương",
+    "bg_query": "warm family",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to care?", "vi": "Biết yêu thương là gì?" },
+      { "style": "quote_dark", "en": "Caring is not \"never getting hurt\".", "vi": "Yêu thương không phải là \"không bao giờ bị tổn thương\"." },
+      { "style": "quote_gold", "en": "Caring is \"choosing to love even when it feels difficult\".", "vi": "Yêu thương là \"chọn yêu ngay cả khi điều đó trở nên khó khăn\"." }
+    ],
+    "caption": "Biết yêu thương là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Diligent",
+    "word_vi": "Chịu khó",
+    "bg_query": "student studying",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to be diligent?", "vi": "Chịu khó là gì?" },
+      { "style": "quote_dark", "en": "Diligent is not \"being busy\".", "vi": "Chịu khó không phải là \"lúc nào cũng bận rộn\"." },
+      { "style": "quote_gold", "en": "Diligent is \"putting care into what you do\".", "vi": "Chịu khó là \"đặt sự tận tâm vào những gì bạn làm\"." }
+    ],
+    "caption": "Chịu khó là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Ambitious",
+    "word_vi": "Khát vọng",
+    "bg_query": "city sunrise",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to have a dream?", "vi": "Có khát vọng là gì?" },
+      { "style": "quote_dark", "en": "Ambition is not \"wanting success overnight\".", "vi": "Khát vọng không phải là \"muốn thành công chỉ sau một đêm\"." },
+      { "style": "quote_gold", "en": "Ambition is \"being willing to work for the life you imagine\".", "vi": "Khát vọng là \"sẵn sàng làm việc để xây dựng cuộc sống mà bạn mong muốn\"." }
+    ],
+    "caption": "Khát vọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Wise",
+    "word_vi": "Biết lựa chọn",
+    "bg_query": "decision",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to make wise choices?", "vi": "Biết lựa chọn là gì?" },
+      { "style": "quote_dark", "en": "Wisdom is not \"choosing what feels good now\".", "vi": "Sự khôn ngoan không phải là \"chọn điều khiến bạn vui ngay lúc này\"." },
+      { "style": "quote_gold", "en": "Wisdom is \"choosing what your future self will thank you for\".", "vi": "Khôn ngoan là \"chọn điều mà bản thân tương lai sẽ cảm ơn bạn\"." }
+    ],
+    "caption": "Biết lựa chọn là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Adaptable",
+    "word_vi": "Biết tiến hóa",
+    "bg_query": "butterfly",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to adapt?", "vi": "Biết thích nghi là gì?" },
+      { "style": "quote_dark", "en": "Adapting is not \"losing yourself\".", "vi": "Thích nghi không phải là \"đánh mất chính mình\"." },
+      { "style": "quote_gold", "en": "Adapting is \"growing into what the next chapter requires\".", "vi": "Thích nghi là \"phát triển thành phiên bản mà chặng đường tiếp theo cần đến\"." }
+    ],
+    "caption": "Biết thích nghi là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Resilient",
+    "word_vi": "Biết đứng dậy",
+    "bg_query": "sunrise after storm",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to get back up?", "vi": "Biết đứng dậy là gì?" },
+      { "style": "quote_dark", "en": "Resilience is not \"pretending it didn't hurt\".", "vi": "Kiên cường không phải là \"giả vờ rằng mình không đau\"." },
+      { "style": "quote_gold", "en": "Resilience is \"accepting the pain and choosing to move forward\".", "vi": "Kiên cường là \"chấp nhận nỗi đau và chọn bước tiếp\"." }
+    ],
+    "caption": "Biết đứng dậy là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Confident",
+    "word_vi": "Tin vào bản thân",
+    "bg_query": "person mountain",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to trust yourself?", "vi": "Tin vào bản thân là gì?" },
+      { "style": "quote_dark", "en": "Self-trust is not \"knowing you will succeed\".", "vi": "Tin vào bản thân không phải là \"biết chắc mình sẽ thành công\"." },
+      { "style": "quote_gold", "en": "Self-trust is \"knowing you'll handle whatever comes next\".", "vi": "Tin vào bản thân là \"biết rằng mình sẽ đối mặt được với bất cứ điều gì tiếp theo\"." }
+    ],
+    "caption": "Tin vào bản thân là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  },
+  {
+    "word": "Hopeful",
+    "word_vi": "Không mất hy vọng",
+    "bg_query": "light horizon",
+    "scenes": [
+      { "style": "question", "en": "What does it mean to keep hope?", "vi": "Không mất hy vọng là gì?" },
+      { "style": "quote_dark", "en": "Hope is not \"believing everything will be easy\".", "vi": "Hy vọng không phải là \"tin rằng mọi thứ sẽ dễ dàng\"." },
+      { "style": "quote_gold", "en": "Hope is \"believing there is still something worth fighting for\".", "vi": "Hy vọng là \"tin rằng vẫn còn điều gì đó đáng để cố gắng\"." }
+    ],
+    "caption": "Không mất hy vọng là gì ?",
+    "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
+    "voice": "en-US-ChristopherNeural"
+  }
+]

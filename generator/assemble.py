@@ -36,7 +36,12 @@ def ffprobe():
 
 
 def run(cmd):
-    subprocess.run(cmd, check=True, capture_output=True, text=True)
+    proc = subprocess.run(cmd, capture_output=True, text=True)
+    if proc.returncode != 0:
+        raise RuntimeError(
+            "Command failed (%d): %s\n%s\n%s"
+            % (proc.returncode, " ".join(cmd), proc.stdout[-2000:], proc.stderr[-2000:])
+        )
 
 
 def mp3_to_wav(mp3_path, wav_path):
@@ -74,16 +79,45 @@ def build_audio(items, total_dur, out_wav):
     return out_wav
 
 
-def encode_video(frame_dir, audio_wav, out_mp4, fps=30):
-    run([
-        ffmpeg(), "-y", "-v", "error",
-        "-framerate", str(fps),
-        "-i", os.path.join(frame_dir, "frame_%05d.png"),
-        "-i", audio_wav,
-        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", "-preset", "medium",
-        "-c:a", "aac", "-b:a", "192k",
-        "-movflags", "+faststart",
-        "-shortest",
-        out_mp4,
-    ])
+def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, duration=None):
+    if bg_video_path and os.path.exists(bg_video_path):
+        filter_complex = (
+            "[0:v]scale=1080:1440:force_original_aspect_ratio=increase,crop=1080:1440,fps={fps}[scaled_bg];"
+            "[scaled_bg][1:v]overlay=0:0[v]"
+        ).format(fps=fps)
+        cmd = [
+            ffmpeg(), "-y", "-v", "error",
+            "-stream_loop", "-1",
+            "-i", bg_video_path,
+            "-framerate", str(fps),
+            "-i", os.path.join(frame_dir, "frame_%05d.png"),
+            "-i", audio_wav,
+            "-filter_complex", filter_complex,
+            "-map", "[v]", "-map", "2:a",
+            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", "-preset", "medium",
+            "-c:a", "aac", "-b:a", "192k",
+            "-movflags", "+faststart",
+        ]
+        if duration:
+            cmd += ["-t", str(duration)]
+        cmd.append(out_mp4)
+        run(cmd)
+    else:
+        cmd = [
+            ffmpeg(), "-y", "-v", "error",
+            "-framerate", str(fps),
+            "-i", os.path.join(frame_dir, "frame_%05d.png"),
+            "-i", audio_wav,
+            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", "-preset", "medium",
+            "-c:a", "aac", "-b:a", "192k",
+            "-movflags", "+faststart",
+        ]
+        if duration:
+            cmd += ["-t", str(duration)]
+        else:
+            cmd += ["-shortest"]
+        cmd.append(out_mp4)
+        run(cmd)
     return out_mp4
+
+

@@ -7,7 +7,7 @@ import shutil
 import sys
 import time
 
-from generator import tts, render, assemble
+from generator import tts, render, assemble, background
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -48,11 +48,16 @@ def main():
     word_vi = data.get("word_vi", "")
     caption = data.get("caption", "")
     hashtags = data.get("hashtags", "")
+    bg_query = data.get("bg_query", "")
 
     os.makedirs(args.work_dir, exist_ok=True)
     os.makedirs(args.output_dir, exist_ok=True)
 
-    print("[1/4] Tao giong doc (edge-tts)...")
+    print("[1/5] Lay video phong nen background (Coverr/Pexels)...")
+    bg_seed = "%s|%s" % (word, bg_query)
+    bg_video_path = background.get_background_video(args.work_dir, query=bg_query, seed=bg_seed)
+
+    print("[2/5] Tao giong doc (edge-tts)...")
     wavs = []
     durations = []
     for i, sc in enumerate(scenes):
@@ -89,18 +94,19 @@ def main():
         "end": t + OUTRO_DUR,
     }
     total = outro["end"]
-    print("[2/4] Render %d frames (%.1fs)..." % (int(total * FPS), total))
+    print("[3/5] Render %d frames (%.1fs)..." % (int(total * FPS), total))
     frame_dir = os.path.join(args.work_dir, "frames")
     render.render(blocks, outro, frame_dir)
 
-    print("[3/4] Ghep audio...")
+    print("[4/5] Ghep audio...")
     audio_wav = os.path.join(args.work_dir, "audio.wav")
     items = [(b["voice_wav"], b["voice_at"]) for b in blocks]
     assemble.build_audio(items, total, audio_wav)
 
-    print("[4/4] Encode MP4...")
+    print("[5/5] Encode MP4 voi video background...")
     out_path = os.path.join(args.output_dir, "%s_%d.mp4" % (slug(word), int(time.time())))
-    assemble.encode_video(frame_dir, audio_wav, out_path, FPS)
+    assemble.encode_video(frame_dir, audio_wav, out_path, FPS, bg_video_path=bg_video_path, duration=total)
+
 
     if not args.keep_work:
         shutil.rmtree(frame_dir, ignore_errors=True)
