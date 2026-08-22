@@ -1,24 +1,25 @@
 {
-  "word": "Optimistic",
-  "word_vi": "Lạc quan",
+  "word": "Resilient",
+  "word_vi": "Kiên cường",
+  "bg_query": "mountain sunrise",
   "scenes": [
     {
       "style": "question",
-      "en": "What does it mean to be optimistic?",
-      "vi": "Lạc quan là gì?"
+      "en": "What does it mean to be resilient?",
+      "vi": "Kiên cường là gì?"
     },
     {
       "style": "quote_dark",
-      "en": "Optimistic is not \"everything will go perfectly\".",
-      "vi": "Lạc quan không phải là \"mọi thứ sẽ luôn diễn ra hoàn hảo\"."
+      "en": "Resilient is not \"never falling down\".",
+      "vi": "Kiên cường không phải là \"không bao giờ gục ngã\"."
     },
     {
       "style": "quote_gold",
-      "en": "Optimistic is \"something good can still come from this\".",
-      "vi": "Lạc quan là \"điều tốt đẹp vẫn có thể đến từ chuyện này\"."
+      "en": "Resilient is \"choosing to rise every time you fall\".",
+      "vi": "Kiên cường là \"chọn đứng dậy sau mỗi lần gục ngã\"."
     }
   ],
-  "caption": "Lạc quan là gì?",
+  "caption": "Kiên cường là gì?",
   "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
   "voice": "en-US-ChristopherNeural"
 }
