@@ -1,25 +1,25 @@
 {
-  "word": "Resilient",
-  "word_vi": "Kiên cường",
-  "bg_query": "mountain sunrise",
+  "word": "Loyal",
+  "word_vi": "Trung thành",
+  "bg_query": "friends",
   "scenes": [
     {
       "style": "question",
-      "en": "What does it mean to be resilient?",
-      "vi": "Kiên cường là gì?"
+      "en": "What does it mean to be loyal?",
+      "vi": "Trung thành là gì?"
     },
     {
       "style": "quote_dark",
-      "en": "Resilient is not \"never falling down\".",
-      "vi": "Kiên cường không phải là \"không bao giờ gục ngã\"."
+      "en": "Loyal is not \"agreeing with everything\".",
+      "vi": "Trung thành không phải là \"đồng ý với mọi thứ\"."
     },
     {
       "style": "quote_gold",
-      "en": "Resilient is \"choosing to rise every time you fall\".",
-      "vi": "Kiên cường là \"chọn đứng dậy sau mỗi lần gục ngã\"."
+      "en": "Loyal is \"staying true even when things get difficult\".",
+      "vi": "Trung thành là \"giữ lòng chân thành ngay cả khi mọi thứ trở nên khó khăn\"."
     }
   ],
-  "caption": "Kiên cường là gì?",
+  "caption": "Trung thành là gì ?",
   "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
   "voice": "en-US-ChristopherNeural"
 }
