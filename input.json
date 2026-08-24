@@ -1,25 +1,25 @@
 {
-  "word": "Loyal",
-  "word_vi": "Trung thành",
-  "bg_query": "friends",
+  "word": "Determined",
+  "word_vi": "Quyết tâm",
+  "bg_query": "running",
   "scenes": [
     {
       "style": "question",
-      "en": "What does it mean to be loyal?",
-      "vi": "Trung thành là gì?"
+      "en": "What does it mean to be determined?",
+      "vi": "Quyết tâm là gì?"
     },
     {
       "style": "quote_dark",
-      "en": "Loyal is not \"agreeing with everything\".",
-      "vi": "Trung thành không phải là \"đồng ý với mọi thứ\"."
+      "en": "Determined is not \"never feeling tired\".",
+      "vi": "Quyết tâm không phải là \"không bao giờ cảm thấy mệt mỏi\"."
     },
     {
       "style": "quote_gold",
-      "en": "Loyal is \"staying true even when things get difficult\".",
-      "vi": "Trung thành là \"giữ lòng chân thành ngay cả khi mọi thứ trở nên khó khăn\"."
+      "en": "Determined is \"continuing because your goal matters\".",
+      "vi": "Quyết tâm là \"tiếp tục vì mục tiêu của bạn thực sự quan trọng\"."
     }
   ],
-  "caption": "Trung thành là gì ?",
+  "caption": "Quyết tâm là gì ?",
   "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
   "voice": "en-US-ChristopherNeural"
 }

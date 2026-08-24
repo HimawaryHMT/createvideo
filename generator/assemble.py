@@ -4,7 +4,7 @@ import subprocess
 import wave
 from array import array
 
-SR = 44100
+SR = 48000
 CH = 2
 SW = 2
 
@@ -80,10 +80,15 @@ def build_audio(items, total_dur, out_wav):
 
 
 def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, duration=None):
+    """Mã hóa video Full HD 1080x1920 sắc nét cao với bộ lọc Lanczos, CRF 15, Preset slow, màu sắc BT.709."""
     if bg_video_path and os.path.exists(bg_video_path):
         filter_complex = (
-            "[0:v]scale=1080:1440:force_original_aspect_ratio=increase,crop=1080:1440,fps={fps}[scaled_bg];"
-            "[scaled_bg][1:v]overlay=0:0[v]"
+            "[0:v]scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos+accurate_rnd,"
+            "crop=1080:1920,"
+            "eq=brightness=-0.05:contrast=1.08:saturation=1.12,"
+            "unsharp=3:3:0.5:3:3:0.0,"
+            "fps={fps}[scaled_bg];"
+            "[scaled_bg][1:v]overlay=0:0:format=auto[v]"
         ).format(fps=fps)
         cmd = [
             ffmpeg(), "-y", "-v", "error",
@@ -94,8 +99,22 @@ def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, dura
             "-i", audio_wav,
             "-filter_complex", filter_complex,
             "-map", "[v]", "-map", "2:a",
-            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", "-preset", "medium",
-            "-c:a", "aac", "-b:a", "192k",
+            "-c:v", "libx264",
+            "-preset", "slow",
+            "-crf", "15",
+            "-profile:v", "high",
+            "-level", "4.2",
+            "-pix_fmt", "yuv420p",
+            "-colorspace", "bt709",
+            "-color_primaries", "bt709",
+            "-color_trc", "bt709",
+            "-color_range", "tv",
+            "-b:v", "15M",
+            "-maxrate", "22M",
+            "-bufsize", "30M",
+            "-c:a", "aac",
+            "-b:a", "320k",
+            "-ar", "48000",
             "-movflags", "+faststart",
         ]
         if duration:
@@ -108,8 +127,22 @@ def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, dura
             "-framerate", str(fps),
             "-i", os.path.join(frame_dir, "frame_%05d.png"),
             "-i", audio_wav,
-            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "18", "-preset", "medium",
-            "-c:a", "aac", "-b:a", "192k",
+            "-c:v", "libx264",
+            "-preset", "slow",
+            "-crf", "15",
+            "-profile:v", "high",
+            "-level", "4.2",
+            "-pix_fmt", "yuv420p",
+            "-colorspace", "bt709",
+            "-color_primaries", "bt709",
+            "-color_trc", "bt709",
+            "-color_range", "tv",
+            "-b:v", "15M",
+            "-maxrate", "22M",
+            "-bufsize", "30M",
+            "-c:a", "aac",
+            "-b:a", "320k",
+            "-ar", "48000",
             "-movflags", "+faststart",
         ]
         if duration:
@@ -119,5 +152,3 @@ def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, dura
         cmd.append(out_mp4)
         run(cmd)
     return out_mp4
-
-

@@ -119,7 +119,7 @@ def main():
 
     print()
     print("Video da tao xong: %s" % out_path)
-    print("Do dai: %.1f giay | 1080x1440 | 30fps" % total)
+    print("Do dai: %.1f giay | 1080x1920 (Full HD 9:16) | 30fps" % total)
     full_caption = " ".join(x for x in [caption, hashtags] if x)
     if full_caption:
         print("Caption dang TikTok:")
