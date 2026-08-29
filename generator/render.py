@@ -94,8 +94,78 @@ def draw_text_alpha(base, xy, text, font, fill_rgb, alpha, anchor_center_x=None,
     base.alpha_composite(layer)
 
 
+def draw_karaoke_lines(base, start_y, lines, font, normal_rgb, alpha, word_timings=None, t_voice=None, line_spacing=1.28):
+    """Ve text tieng Anh voi hieu ung Karaoke Word-by-Word Highlight ruc sang."""
+    layer = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+
+    active_idx = -1
+    if word_timings and t_voice is not None and t_voice >= 0:
+        for idx, w in enumerate(word_timings):
+            w_start = w.get("offset_s", 0.0)
+            w_dur = w.get("dur_s", 0.0)
+            if w_start <= t_voice < (w_start + w_dur + 0.08):
+                active_idx = idx
+                break
+            elif t_voice >= (w_start + w_dur):
+                active_idx = idx
+
+    space_w = d.textlength(" ", font=font)
+    line_h = font.size * line_spacing
+    cur_y = start_y
+    global_word_idx = 0
+
+    for line in lines:
+        words = line.split()
+        if not words:
+            cur_y += line_h
+            continue
+        word_lens = [d.textlength(w, font=font) for w in words]
+        line_w = sum(word_lens) + space_w * (len(words) - 1)
+        cur_x = (W_S - line_w) / 2
+
+        for i, w in enumerate(words):
+            w_len = word_lens[i]
+            is_active = (global_word_idx == active_idx and active_idx != -1)
+            is_past = (global_word_idx < active_idx and active_idx != -1)
+
+            # Drop shadow
+            if alpha > 30:
+                shadow_alpha = int(alpha * (0.6 if is_active else 0.42))
+                d.text((cur_x + 2 * S, cur_y + 3 * S), w, font=font, fill=(0, 0, 0, shadow_alpha))
+
+            if is_active:
+                # Pill highlight badge ruc ro phia sau tu dang phat am
+                pad_x = 10 * S
+                pad_y = 6 * S
+                pill_alpha = int(90 * (alpha / 255.0))
+                border_alpha = int(220 * (alpha / 255.0))
+                d.rounded_rectangle(
+                    [cur_x - pad_x, cur_y - pad_y, cur_x + w_len + pad_x, cur_y + font.size + pad_y],
+                    radius=12 * S,
+                    fill=(232, 197, 122, pill_alpha),
+                    width=2 * S
+                )
+                # Text vang neon phat sang
+                d.text((cur_x, cur_y), w, font=font, fill=(255, 235, 60, int(alpha)))
+            elif is_past:
+                # Tu da doc: trang tinh net
+                d.text((cur_x, cur_y), w, font=font, fill=(*normal_rgb, int(alpha)))
+            else:
+                # Tu sap doc: trang diu nhe
+                dimmed_alpha = int(alpha * (0.85 if active_idx != -1 else 1.0))
+                d.text((cur_x, cur_y), w, font=font, fill=(*normal_rgb, dimmed_alpha))
+
+            cur_x += w_len + space_w
+            global_word_idx += 1
+
+        cur_y += line_h
+
+    base.alpha_composite(layer)
+
+
 def draw_dark_card(base, alpha, has_badge=True):
-    """Vẽ một lớp thẻ glassmorphic siêu nét với viền tinh tế và badge."""
+    """Ve mot lop the glassmorphic sieu net voi vien tinh te va badge."""
     layer = Image.new("RGBA", base.size, (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     card_alpha = int(165 * (alpha / 255.0))
@@ -106,7 +176,7 @@ def draw_dark_card(base, alpha, has_badge=True):
     card_h = 1080 * S
     card_y = (H_S - card_h) // 2
 
-    # Card nền tối bán trong suốt
+    # Card nen toi ban trong suot
     d.rounded_rectangle(
         [margin_x, card_y, margin_x + card_w, card_y + card_h],
         radius=44 * S,
@@ -115,9 +185,9 @@ def draw_dark_card(base, alpha, has_badge=True):
         width=3 * S
     )
 
-    # Pill badge phía trên nếu có
+    # Pill badge phia tren neu co
     if has_badge and alpha > 20:
-        badge_text = "TIẾNG ANH GIAO TIẾP"
+        badge_text = "TIÂ!NG ANH GIAO TIỎP"
         badge_font = _font("Bold", 24)
         text_w = d.textlength(badge_text, font=badge_font)
         pill_pad_x = 28 * S
@@ -170,6 +240,11 @@ def render_block_text(block, t_rel, dur, base_hires):
     card_y = (H_S - card_h) // 2
     content_center_y = card_y + (card_h // 2) + (35 * S if has_badge else 0)
 
+    # Tinh toan thoi diem giong noi dang phat de highlight Karaoke
+    voice_at_scene = block.get("voice_at", block["start"]) - block["start"]
+    t_voice = t_rel - voice_at_scene
+    word_timings = block.get("word_timings", [])
+
     if style == "outro":
         en_font = _font("Black", 80)
         vi_font = _font("SemiBold", 46)
@@ -197,10 +272,10 @@ def render_block_text(block, t_rel, dur, base_hires):
         total_h = en_h + gap + vi_h
         y = content_center_y - (total_h / 2) + drift
 
-        for line in en_lines:
-            draw_text_alpha(base_hires, (0, y), line, en_font, s["en_color"], alpha, W_S / 2)
-            y += en_font.size * 1.28
-        y += gap
+        # Karaoke Highlight cho cau tieng Anh
+        draw_karaoke_lines(base_hires, y, en_lines, en_font, s["en_color"], alpha, word_timings=word_timings, t_voice=t_voice, line_spacing=1.28)
+        y += en_h + gap
+
         for line in vi_lines:
             draw_text_alpha(base_hires, (0, y), line, vi_font, s["vi_color"], alpha, W_S / 2)
             y += vi_font.size * 1.42
@@ -212,10 +287,10 @@ def render_block_text(block, t_rel, dur, base_hires):
     total_h = en_h + gap + vi_h
     y = content_center_y - (total_h / 2) + drift
 
-    for line in en_lines:
-        draw_text_alpha(base_hires, (0, y), line, en_font, s["en_color"], alpha, W_S / 2)
-        y += en_font.size * 1.28
-    y += gap
+    # Karaoke Highlight cho cau tieng Anh
+    draw_karaoke_lines(base_hires, y, en_lines, en_font, s["en_color"], alpha, word_timings=word_timings, t_voice=t_voice, line_spacing=1.28)
+    y += en_h + gap
+
     for line in vi_lines:
         draw_text_alpha(base_hires, (0, y), line, vi_font, s["vi_color"], alpha, W_S / 2)
         y += vi_font.size * 1.42
@@ -240,12 +315,12 @@ def render(scenes, outro, frame_dir):
         if idx is None:
             idx = n_blocks - 1
 
-        # 1. Khởi tạo canvas độ phân giải cao 2x
+        # 1. Khoi tao canvas do phan giai cao 2x
         base_hires = Image.new("RGBA", (W_S, H_S), (0, 0, 0, 0))
         t_rel = t - blocks[idx]["start"]
         render_block_text(blocks[idx], t_rel, blocks[idx]["end"] - blocks[idx]["start"], base_hires)
 
-        # 2. Downsample với Lanczos filter tạo chất lượng siêu nét không răng cưa
+        # 2. Downsample voi Lanczos filter tao chat luong sieu net khong rang cua
         frame_final = base_hires.resize((W, H), resample=Image.Resampling.LANCZOS)
         frame_final.save(os.path.join(frame_dir, "frame_%05d.png" % i))
 

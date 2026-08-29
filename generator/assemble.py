@@ -9,7 +9,7 @@ CH = 2
 SW = 2
 
 _KNOWN_DIRS = [
-    r"C:\Users\huynh\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0-full_build\bin",
+    r"C:\Users\huynh\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.WinGet.Source_8wekyb3e8bbwe\ffmpeg-9.0-full_build\bin",
     os.path.expandvars(r"%LOCALAPPDATA%\Microsoft\WinGet\Packages"),
     r"C:\ffmpeg\bin",
 ]
@@ -39,7 +39,7 @@ def run(cmd):
     proc = subprocess.run(cmd, capture_output=True, text=True)
     if proc.returncode != 0:
         raise RuntimeError(
-            "Command failed (%d): %s\n%s\n%s"
+            "Command failed (%d): %s\nis\n+%s"
             % (proc.returncode, " ".join(cmd), proc.stdout[-2000:], proc.stderr[-2000:])
         )
 
@@ -57,20 +57,28 @@ def get_duration(wav_path):
     return float(out.stdout.strip())
 
 
-def build_audio(items, total_dur, out_wav):
+def build_audio(items, total_dur, out_wav, sfx_items=None):
+    """Ghep cac doan giong doc +SFX chuyen canh vao dung moc thoi gian."""
     total_samples = int(total_dur * SR)
     buf = array("h", [0]) * (total_samples * CH)
-    for wav_path, offset in items:
+    all_items = list(items) + list(sfx_items or [])
+
+    for wav_path, offset in all_items:
+        if not wav_path or not os.path.exists(wav_path):
+            continue
         with wave.open(wav_path, "rb") as w:
-            assert w.getframerate() == SR
-            assert w.getnchannels() == CH
-            assert w.getsampwidth() == SW
+            if w.getframerate() != SR or w.getnchannels() != CH or w.getsampwidth() != SW:
+                continue
             data = array("h")
             data.frombytes(w.readframes(w.getnframes()))
         start = int(offset * SR) * CH
+
         n = min(len(data), total_samples * CH - start)
-        if n > 0:
-            buf[start:start + n] = data[:n]
+        for k in range(n):
+            idx = start + k
+            mixed = buf[idx] + data[k]
+            buf[idx] = max(-32768, min(32767, mixed))
+
     with wave.open(out_wav, "wb") as w:
         w.setnchannels(CH)
         w.setsampwidth(SW)
@@ -79,17 +87,20 @@ def build_audio(items, total_dur, out_wav):
     return out_wav
 
 
-def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, duration=None):
-    """Mã hóa video Full HD 1080x1920 sắc nét cao với bộ lọc Lanczos, CRF 15, Preset slow, màu sắc BT.709."""
+def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, duration=None, bgm_path=None):
+    """Ma hoa video Full HD 1080x1920 sac net cao + BGM Lofi chill + SFX."""
+    has_bgm = bool(bgm_path and os.path.exists(bgm_path))
+
     if bg_video_path and os.path.exists(bg_video_path):
-        filter_complex = (
+        video_filter = (
             "[0:v]scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos+accurate_rnd,"
             "crop=1080:1920,"
             "eq=brightness=-0.05:contrast=1.08:saturation=1.12,"
             "unsharp=3:3:0.5:3:3:0.0,"
-            "fps={fps}[scaled_bg];"
+            "fps=%d[scaled_bg];"
             "[scaled_bg][1:v]overlay=0:0:format=auto[v]"
-        ).format(fps=fps)
+        ) % fps
+
         cmd = [
             ffmpeg(), "-y", "-v", "error",
             "-stream_loop", "-1",
@@ -97,8 +108,24 @@ def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, dura
             "-framerate", str(fps),
             "-i", os.path.join(frame_dir, "frame_%05d.png"),
             "-i", audio_wav,
+        ]
+
+        if has_bgm:
+            cmd += ["-stream_loop", "-1", "-i", bgm_path]
+            fade_st = max(0.0, (duration - 1.5) if duration else 10.0)
+            audio_filter = (
+                "[3:a]volume=0.18,afade=t=out:st=%.2f:d=1.5[bgm];"
+                "[2:a][bgm]amix=inputs=2:duration=first:dropout_transition=2[aout]"
+            ) % fade_st
+            filter_complex = video_filter + ";" + audio_filter
+            audio_map = "[aout]"
+        else:
+            filter_complex = video_filter
+            audio_map = "2:a"
+
+        cmd += [
             "-filter_complex", filter_complex,
-            "-map", "[v]", "-map", "2:a",
+            "-map", "[v]", "-map", audio_map,
             "-c:v", "libx264",
             "-preset", "slow",
             "-crf", "15",
@@ -127,6 +154,19 @@ def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, dura
             "-framerate", str(fps),
             "-i", os.path.join(frame_dir, "frame_%05d.png"),
             "-i", audio_wav,
+        ]
+        if has_bgm:
+            cmd += ["-stream_loop", "-1", "-i", bgm_path]
+            fade_st = max(0.0, (duration - 1.5) if duration else 10.0)
+            audio_filter = (
+                "[2:a]volume=0.18,afade=t=out:st=%.2f:d=1.5[bgm];"
+                "[1:a][bgm]amix=inputs=2:duration=first:dropout_transition=2[aout]"
+            ) % fade_st
+            cmd += ["-filter_complex", audio_filter, "-map", "0:v", "-map", "[aout]"]
+        else:
+            cmd += ["-map", "0:v", "-map", "1:a"]
+
+        cmd += [
             "-c:v", "libx264",
             "-preset", "slow",
             "-crf", "15",
@@ -152,3 +192,4 @@ def encode_video(frame_dir, audio_wav, out_mp4, fps=30, bg_video_path=None, dura
         cmd.append(out_mp4)
         run(cmd)
     return out_mp4
+

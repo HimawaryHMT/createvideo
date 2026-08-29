@@ -1,25 +1,25 @@
 {
-  "word": "Determined",
-  "word_vi": "Quyết tâm",
-  "bg_query": "running",
+  "word": "Authentic",
+  "word_vi": "Chân thật",
+  "bg_query": "mirror",
   "scenes": [
     {
       "style": "question",
-      "en": "What does it mean to be determined?",
-      "vi": "Quyết tâm là gì?"
+      "en": "What does it mean to be authentic?",
+      "vi": "Chân thật là gì?"
     },
     {
       "style": "quote_dark",
-      "en": "Determined is not \"never feeling tired\".",
-      "vi": "Quyết tâm không phải là \"không bao giờ cảm thấy mệt mỏi\"."
+      "en": "Authentic is not \"showing everyone everything\".",
+      "vi": "Chân thật không phải là \"cho mọi người thấy mọi thứ về mình\"."
     },
     {
       "style": "quote_gold",
-      "en": "Determined is \"continuing because your goal matters\".",
-      "vi": "Quyết tâm là \"tiếp tục vì mục tiêu của bạn thực sự quan trọng\"."
+      "en": "Authentic is \"being true to who you are\".",
+      "vi": "Chân thật là \"sống đúng với con người thật của mình\"."
     }
   ],
-  "caption": "Quyết tâm là gì ?",
+  "caption": "Chân thật là gì ?",
   "hashtags": "#english #talkenglish #motivation #dongluc #dongluchoctap #cogang",
   "voice": "en-US-ChristopherNeural"
 }
